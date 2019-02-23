@@ -1,6 +1,12 @@
 Этот документ призван максимально верно и доступно описать то, как происходит всё «действо» в нашем минском python-сообществе.
 
-
+# Список интернет-ресурсов сообщества
+- Общение: Ищите в телеграмме minsk_python
+- Анонсы митапов: https://python-meetup.timepad.ru/events/
+- Анонсы и фоторепортажи: https://www.facebook.com/MinskPythonMeetup
+- Видеозаписи докладов: https://www.youtube.com/user/pythonMinsk
+- Слайды за 2013-2015 годы: https://www.slideshare.net/MinskPythonMeetup
+- И старый твиттер: https://twitter.com/pythonminsk
 
 # Модераторы
 
