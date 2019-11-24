@@ -2,11 +2,11 @@
 
 # Модераторы
 
-- Татьяна Цыган (@ttsygan на GitHub, *@TatsianaTsygan* в Telegram)
-- Стас Рудаков (@nott на GitHub, *@random_stas* в Telegram)
-- Сергей Халецкий (@TheML9I на GitHub, *@TheMJi9i* в в Telegram)
-- Андрей Свиридов (@MrLokans на GitHub, *@andersmach* в Telegram)
-- Николай Сасковец (@shurph на GitHub, *@mikalai_shurph* в Telegram) 
+- Татьяна Цыган ([@ttsygan](https://github.com/ttsygan) на GitHub, [*@TatsianaTsygan*](https://t.me/TatsianaTsygan) в Telegram)
+- Стас Рудаков ([@nott](https://github.com/nott) на GitHub, [*@random_stas*](https://t.me/random_stas) в Telegram)
+- Сергей Халецкий ([@TheML9I](https://github.com/TheML9I) на GitHub, [*@TheMJi9i*](https://t.me/TheMJi9i) в в Telegram)
+- Андрей Свиридов ([@MrLokans](https://github.com/MrLokans) на GitHub, [*@andersmach*](https://t.me/andersmach) в Telegram)
+- Николай Сасковец ([@shurph](https://github.com/shurph) на GitHub, [*@mikalai_shurph*](https://t.me/mikalai_shurph) в Telegram)
 
 
 # Как выступить с докладом?
@@ -67,7 +67,7 @@ _Это не руководство к действию, а лишь идеи �
 
 Это делается для того, чтобы при просмотре Issue в правой колонке отображался текст «Took place in Monthly Meetups: Talks» :-)
 
-Как только появляются записи видеовыступлений, ссылка на них добавляется в комментраии к Issue. 
+Как только появляются записи видеовыступлений, ссылка на них добавляется в комментарии к Issue.
 
 Issue закрывается через какое-то время.
 
@@ -91,13 +91,13 @@ Issue закрывается через какое-то время.
 
 
 # Список интернет-ресурсов сообщества
-- Общение: Ищите в телеграмме minsk_python
+- **Общение: Ищите в телеграмме `minsk_python`**
 - Анонсы митапов: https://python-meetup.timepad.ru/events/
 - Анонсы и фоторепортажи: https://www.facebook.com/MinskPythonMeetup
 - Видеозаписи докладов: https://www.youtube.com/user/pythonMinsk
 - Слайды за 2013-2015 годы: https://www.slideshare.net/MinskPythonMeetup
 - И старый твиттер: https://twitter.com/pythonminsk
-- Инициатива Coding Dojo:
-- - Minsk Python Coding Dojo на гитхабе: https://github.com/minsk-python-dojo
-- - Minsk Python Coding Dojo в телеграме: https://t.me/minskdojo
+- **Инициатива Coding Dojo:**
+  - Minsk Python Coding Dojo на гитхабе: https://github.com/minsk-python-dojo
+  - **Minsk Python Coding Dojo в телеграме:** https://t.me/minskdojo
 
