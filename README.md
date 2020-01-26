@@ -1,5 +1,19 @@
 Этот документ призван максимально верно и доступно описать то, как происходит всё «действо» в нашем минском python-сообществе.
 
+Содержимое этой страницы можно [отредактировать](https://github.com/minskpython/minskpython.github.io/edit/master/README.md).
+
+# Связь с сообществом
+
+- Телеграм: https://t.me/minsk_python
+- Анонсы митапов: https://python-meetup.timepad.ru/events/
+- Анонсы и фоторепортажи: https://www.facebook.com/MinskPythonMeetup
+- Видеозаписи докладов: https://www.youtube.com/user/pythonMinsk
+- Слайды за 2013-2015 годы: https://www.slideshare.net/MinskPythonMeetup
+- И старый твиттер: https://twitter.com/pythonminsk
+- **Инициатива Coding Dojo:**
+  - Minsk Python Coding Dojo на гитхабе: https://github.com/minsk-python-dojo
+  - **Minsk Python Coding Dojo в телеграме:** https://t.me/minskdojo
+
 # Модераторы
 
 - Татьяна Цыган ([@ttsygan](https://github.com/ttsygan) на GitHub, [*@TatsianaTsygan*](https://t.me/TatsianaTsygan) в Telegram)
@@ -87,17 +101,3 @@ Issue закрывается через какое-то время.
 **Вы можете добавлять свои идеи и предложения как Issue в специальный репозиторий: [Ideas-and-Proposals](https://github.com/minskpython/ideas-and-proposals/issues).**
 
 Также, конечно, можно вносить какие-то предложения в неформальной беседе в нашем канале в Telegram.
-
-
-
-# Список интернет-ресурсов сообщества
-- **Общение: Ищите в телеграмме `minsk_python`**
-- Анонсы митапов: https://python-meetup.timepad.ru/events/
-- Анонсы и фоторепортажи: https://www.facebook.com/MinskPythonMeetup
-- Видеозаписи докладов: https://www.youtube.com/user/pythonMinsk
-- Слайды за 2013-2015 годы: https://www.slideshare.net/MinskPythonMeetup
-- И старый твиттер: https://twitter.com/pythonminsk
-- **Инициатива Coding Dojo:**
-  - Minsk Python Coding Dojo на гитхабе: https://github.com/minsk-python-dojo
-  - **Minsk Python Coding Dojo в телеграме:** https://t.me/minskdojo
-
