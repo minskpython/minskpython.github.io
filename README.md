@@ -1,5 +1,5 @@
-
-# Предложения к улучшению
+# Minsk Python Community : как всё устроено
+## Предложения к улучшению
 Если у вас есть какие-либо идеи или предложения — добавляйте пожалуйста их как Issue в специальный репозиторий **[Ideas-and-Proposals](https://github.com/minskpython/ideas-and-proposals/issues)** или пишите в Telegram.
 
 
