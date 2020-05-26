@@ -18,7 +18,7 @@
     <body>
         <div class="extra-wrapper">
             <div class="head content">
-                <h1 id="minsk-python-community--как-всё-устроено">Minsk Python Meetup</h1>
+                <h1>Minsk Python Meetup</h1>
                 <p>
                     Minsk Python Meetup is one of the biggest independent folks-driven IT community in Belarus 
                 </p>
@@ -424,29 +424,7 @@
             padding: 10px 0;
         }
 
-        @media (max-width: 660px) {
-            h1 {
-                font-size: 1.3em;
-            }
 
-            .head p {
-                font-size: 2rem;
-            }
-        }
-
-        @media (max-width: 540px) {
-            h1 {
-                font-size: 1rem;
-            }
-
-            h2, h3 {
-                font-size: 1.5em;
-            }
-
-            .head p {
-                font-size: 1.7rem;
-            }
-        }
 
         .description {
             padding: 0 60px;
@@ -483,6 +461,10 @@
             margin: 0 auto;
             padding-top: 0.5em;
         }
+        .extra-wrapper .content.head {
+
+            padding-top: 1.25em;
+        }
 
         .sponsors > div {
             overflow: hidden
@@ -512,6 +494,39 @@
 
         .footer div {
             padding-bottom: 0
+        }
+    </style>
+    <style>
+        @media (max-width: 840px) {
+            .extra-wrapper .content.head {
+                padding-top: 0.5em;
+            }
+        }
+        @media (max-width: 660px) {
+            h1 {
+                font-size: 1.3em;
+            }
+
+            .head p {
+                font-size: 2rem;
+            }
+            .extra-wrapper .content.head {
+                padding-top: 1em;
+            }
+        }
+
+        @media (max-width: 540px) {
+            h1 {
+                font-size: 1rem;
+            }
+
+            h2, h3 {
+                font-size: 1.5em;
+            }
+
+            .head p {
+                font-size: 1.7rem;
+            }
         }
     </style>
 </html>
