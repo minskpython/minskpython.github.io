@@ -60,7 +60,7 @@
                     </div>
                     <div>
                         <h3>
-                            <a href="https://goo.gl/n571V7">GitHub Repo</a>
+                            <a href="https://github.com/minskpython/talks/issues">Github</a>
                         </h3>
                         <p>add your talks proposals here</p>
                     </div>
@@ -71,7 +71,7 @@
                         <p>meetups&apos; video records on PyVideo</p>
                     </div>
                 </div>
-                <h2>Meetup Keepers</h2>
+                <h2 id="meetup-keepers">Meetup Keepers</h2>
                 <div class="three-in-row">
                     <div>
                         <img src="assets/images/mikalai_saskavets.jpg">
@@ -219,6 +219,7 @@
                         <p>Every Sunday we master our skill with coding kata</p>
                         <p>Beginners are highly welcomed</p>
                         <a class="ico-telegram" href="https://t.me/minskdojo" title="telegram">@minskdojo</a>
+                        <a class="ico-github" href="https://github.com/minsk-python-dojo" title="github">@minsk-python-dojo</a>
                     </div>
                     <div>
                         <h3>PyCon Belarus</h3>
@@ -239,7 +240,7 @@
         </div>
         <div class="extra-wrapper footer">
             <div class="content">
-                <div class="two-in-row">
+                <div class="three-in-row">
                     <div>
                         <ul>
                             <li>
@@ -262,7 +263,20 @@
                                 <a href="https://python-meetup.timepad.ru/">Timepad</a>
                             </li>
                             <li>
-                                <a href="https://goo.gl/n571V7">GitHub Repo</a>
+                                <a href="https://www.slideshare.net/MinskPythonMeetup">Slideshare</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="https://twitter.com/pythonminsk">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/minskpython">Github</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/minskpython/talks/issues">Talks Proposals</a>
                             </li>
                         </ul>
                     </div>
@@ -440,6 +454,18 @@
             width: 54px;
             height: 54px;
             background: url(assets/images/logos/discord.svg) center center;
+            background-size: cover;
+            overflow: hidden;
+            color: transparent;
+        }
+
+        .ico-github {
+            display: inline-block;
+            width: 64px;
+            height: 64px;
+            /* TODO: fix icon: download, crop, remove the hack with background-position-y */
+            background: url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png) center center no-repeat;
+            background-position-y: 7px;
             background-size: cover;
             overflow: hidden;
             color: transparent;
