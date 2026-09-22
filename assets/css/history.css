@@ -1,0 +1,286 @@
+/* Community history — meetup navy / site photo chrome */
+
+:root {
+    --hist-navy: #072540;
+    --hist-accent: #2b6cb0;
+    --hist-accent-soft: #93c2db;
+    --hist-text: #24292e;
+    --hist-muted: #586069;
+    --hist-border: #e1e4e8;
+    --hist-bg-soft: #f6f8fa;
+    --hist-bg-page: #fff;
+}
+
+body.hist-page {
+    color: var(--hist-text);
+    background: var(--hist-bg-page);
+}
+
+.hist-page .extra-wrapper.head-wrap {
+    background-image: url(../images/mpm-bg-new.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hist-page .head {
+    height: auto;
+    min-height: 180px;
+    padding: 1.5em 20px 2em;
+    font-size: 1.4em;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(7, 37, 64, 0.45);
+}
+
+.hist-page .head h1 {
+    font-size: 1.35em;
+    margin: 0.2em 0 0.4em;
+    color: #fff;
+}
+
+.hist-page .head .hist-tagline {
+    font-size: 0.55em;
+    max-width: 36em;
+    margin: 0;
+    opacity: 0.95;
+    color: #fff;
+}
+
+.hist-breadcrumb {
+    font-size: 0.85rem;
+    margin-bottom: 0.75em;
+    text-shadow: none;
+}
+
+.hist-breadcrumb a {
+    color: var(--hist-accent-soft);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.hist-breadcrumb a:hover {
+    color: #fff;
+}
+
+.hist-breadcrumb span {
+    opacity: 0.85;
+    color: #fff;
+}
+
+.hist-article {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 1.5em 24px 4em;
+}
+
+.hist-article h1.hist-title {
+    text-align: left;
+    font-size: 2rem;
+    color: var(--hist-navy);
+    padding: 0.5em 0 0.35em;
+    margin: 0;
+}
+
+.hist-article h2 {
+    text-align: left;
+    font-size: 1.35rem;
+    color: var(--hist-navy);
+    padding: 1.75em 0 0.5em;
+    margin: 0;
+    border-bottom: 2px solid var(--hist-accent-soft);
+}
+
+.hist-article h3 {
+    text-align: left;
+    font-size: 1.1rem;
+    color: var(--hist-accent);
+    padding: 1.25em 0 0.35em;
+    margin: 0;
+}
+
+.hist-article p,
+.hist-article li {
+    text-align: left;
+    line-height: 1.65;
+    color: var(--hist-text);
+}
+
+.hist-article p {
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+.hist-article ul,
+.hist-article ol {
+    margin: 0 0 1.25em;
+    padding-left: 1.4em;
+}
+
+.hist-article li {
+    margin-bottom: 0.4em;
+}
+
+.hist-article a {
+    color: var(--hist-accent);
+}
+
+.hist-article a:hover {
+    color: var(--hist-navy);
+}
+
+.hist-lede {
+    font-size: 1.15rem;
+    color: var(--hist-muted);
+    margin-bottom: 1.5em !important;
+}
+
+.hist-callout {
+    background: linear-gradient(135deg, rgba(7, 37, 64, 0.06), rgba(147, 194, 219, 0.25));
+    border-left: 4px solid var(--hist-navy);
+    border-radius: 0 8px 8px 0;
+    padding: 1em 1.15em;
+    margin: 0 0 1.5em;
+}
+
+.hist-callout p:last-child {
+    margin-bottom: 0;
+}
+
+.hist-timeline {
+    list-style: none;
+    margin: 1.5em 0 2em;
+    padding: 0;
+    border-left: 3px solid var(--hist-accent-soft);
+}
+
+.hist-timeline > li {
+    position: relative;
+    margin: 0 0 1.75em;
+    padding: 0 0 0 1.25em;
+}
+
+.hist-timeline > li::before {
+    content: "";
+    position: absolute;
+    left: -0.55em;
+    top: 0.35em;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    background: var(--hist-navy);
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px var(--hist-accent-soft);
+}
+
+.hist-timeline .hist-when {
+    display: block;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--hist-navy);
+    margin-bottom: 0.35em;
+}
+
+.hist-people {
+    list-style: none;
+    margin: 1em 0 1.5em;
+    padding: 0;
+}
+
+.hist-people > li {
+    margin: 0 0 1.25em;
+    padding: 1em 1.1em;
+    background: var(--hist-bg-soft);
+    border: 1px solid var(--hist-border);
+    border-radius: 8px;
+}
+
+.hist-people .hist-person-name {
+    display: block;
+    font-weight: 700;
+    color: var(--hist-navy);
+    margin-bottom: 0.2em;
+}
+
+.hist-people .hist-person-when {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--hist-muted);
+    margin-bottom: 0.4em;
+}
+
+.hist-people p {
+    margin: 0;
+}
+
+.hist-partners {
+    margin: 1em 0 1.75em;
+    max-width: none;
+}
+
+.hist-partners h3 {
+    padding: 0;
+    font-size: 1rem;
+}
+
+.hist-article > h3 {
+    text-align: left;
+    font-size: 1.1rem;
+    color: var(--hist-accent);
+    padding: 0.5em 0 0.75em;
+    margin: 0;
+}
+
+.hist-sources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6em;
+    margin: 0.75em 0 1.5em;
+}
+
+.hist-sources a {
+    display: inline-block;
+    padding: 0.45em 0.95em;
+    border-radius: 6px;
+    background: var(--hist-navy);
+    color: #fff !important;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hist-sources a:hover {
+    background: var(--hist-accent);
+    text-decoration: none;
+}
+
+.hist-sources a.hist-source-secondary {
+    background: #fff;
+    color: var(--hist-navy) !important;
+    border: 1px solid var(--hist-navy);
+}
+
+.hist-sources a.hist-source-secondary:hover {
+    background: var(--hist-bg-soft);
+}
+
+.hist-page .footer .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hist-page .footer .three-in-row > div {
+    width: auto;
+    padding: 0 1.5em 0.5em;
+}
+
+@media (max-width: 540px) {
+    .hist-page .head {
+        font-size: 1.15em;
+        min-height: 140px;
+    }
+
+    .hist-article h1.hist-title {
+        font-size: 1.55rem;
+    }
+}

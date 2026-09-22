@@ -1,0 +1,303 @@
+/* PyCon Belarus article page — palette from by.pycon.org (esp. 2019–2021) */
+
+:root {
+    /* 2020–2021 brand */
+    --pb-indigo: #2d358e;
+    --pb-pink: #e89cc2;
+    --pb-teal: #90ceca;
+    /* 2019 brand accents */
+    --pb-gold: #f4b908;
+    --pb-crimson: #c40d2f;
+    --pb-ink: #1b1828;
+
+    --pb-accent: var(--pb-indigo);
+    --pb-accent-glow: var(--pb-pink);
+    --pb-navy: var(--pb-ink);
+    --pb-text: #2a2740;
+    --pb-muted: #5c5870;
+    --pb-border: #d8d4e8;
+    --pb-bg-soft: #f3f0f8;
+    --pb-bg-page: #faf8fc;
+}
+
+body.pb-page {
+    color: var(--pb-text);
+    background: var(--pb-bg-page);
+}
+
+/* Hero: indigo → ink with pink / teal / gold washes (no meetup photo) */
+.pb-page .extra-wrapper.head-wrap {
+    background-image:
+        radial-gradient(ellipse 80% 60% at 15% 20%, rgba(232, 156, 194, 0.45), transparent 55%),
+        radial-gradient(ellipse 70% 50% at 90% 80%, rgba(144, 206, 202, 0.35), transparent 50%),
+        radial-gradient(ellipse 40% 40% at 70% 10%, rgba(244, 185, 8, 0.22), transparent 45%),
+        linear-gradient(145deg, #2d358e 0%, #302b47 48%, #1b1828 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pb-page .head {
+    height: auto;
+    min-height: 180px;
+    padding: 1.5em 20px 2em;
+    font-size: 1.4em;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(27, 24, 40, 0.35);
+}
+
+.pb-page .head h1 {
+    font-size: 1.35em;
+    margin: 0.2em 0 0.4em;
+    color: #fff;
+}
+
+.pb-page .head .pb-tagline {
+    font-size: 0.55em;
+    max-width: 36em;
+    margin: 0;
+    opacity: 0.95;
+    color: #fff5ca;
+}
+
+.pb-breadcrumb {
+    font-size: 0.85rem;
+    margin-bottom: 0.75em;
+    text-shadow: none;
+}
+
+.pb-breadcrumb a {
+    color: var(--pb-teal);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.pb-breadcrumb a:hover {
+    color: var(--pb-pink);
+    opacity: 1;
+}
+
+.pb-breadcrumb span {
+    opacity: 0.85;
+    color: #fff;
+}
+
+.pb-article {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 1.5em 24px 4em;
+}
+
+.pb-article h1.pb-title {
+    text-align: left;
+    font-size: 2rem;
+    color: var(--pb-indigo);
+    text-shadow: 2px 2px 0 var(--pb-pink);
+    padding: 0.5em 0 0.35em;
+    margin: 0;
+}
+
+.pb-article h2 {
+    text-align: left;
+    font-size: 1.35rem;
+    color: var(--pb-ink);
+    padding: 1.75em 0 0.5em;
+    margin: 0;
+    border-bottom: 2px solid var(--pb-teal);
+}
+
+.pb-article h3 {
+    text-align: left;
+    font-size: 1.1rem;
+    color: var(--pb-indigo);
+    padding: 1.25em 0 0.35em;
+    margin: 0;
+}
+
+.pb-article p,
+.pb-article li {
+    text-align: left;
+    line-height: 1.65;
+    color: var(--pb-text);
+}
+
+.pb-article p {
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+.pb-article ul,
+.pb-article ol {
+    margin: 0 0 1.25em;
+    padding-left: 1.4em;
+}
+
+.pb-article li {
+    margin-bottom: 0.4em;
+}
+
+.pb-article a {
+    color: var(--pb-indigo);
+}
+
+.pb-article a:hover {
+    color: var(--pb-crimson);
+}
+
+.pb-lede {
+    font-size: 1.15rem;
+    color: var(--pb-muted);
+    margin-bottom: 1.5em !important;
+}
+
+.pb-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 0 0 1.75em;
+    padding: 0;
+    list-style: none;
+}
+
+.pb-meta li {
+    display: inline-block;
+    margin: 0;
+    padding: 0.35em 0.75em;
+    font-size: 0.85rem;
+    background: linear-gradient(135deg, #fff5ca 0%, #ffd6de 100%);
+    border: 1px solid var(--pb-border);
+    border-radius: 6px;
+    color: var(--pb-muted);
+}
+
+.pb-meta strong {
+    color: var(--pb-ink);
+    font-weight: 600;
+}
+
+.pb-meta a {
+    color: var(--pb-indigo);
+}
+
+.pb-callout {
+    background: linear-gradient(135deg, rgba(45, 53, 142, 0.08), rgba(232, 156, 194, 0.14));
+    border-left: 4px solid var(--pb-pink);
+    border-radius: 0 8px 8px 0;
+    padding: 1em 1.15em;
+    margin: 0 0 1.5em;
+}
+
+.pb-callout p:last-child {
+    margin-bottom: 0;
+}
+
+.pb-sources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6em;
+    margin: 0.75em 0 1.5em;
+}
+
+.pb-sources a {
+    display: inline-block;
+    padding: 0.45em 0.95em;
+    border-radius: 6px;
+    background: var(--pb-indigo);
+    color: #fff !important;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.pb-sources a:hover {
+    background: var(--pb-crimson);
+    text-decoration: none;
+}
+
+.pb-sources a.pb-source-secondary {
+    background: #fff;
+    color: var(--pb-indigo) !important;
+    border: 1px solid var(--pb-indigo);
+}
+
+.pb-sources a.pb-source-secondary:hover {
+    background: var(--pb-bg-soft);
+    border-color: var(--pb-pink);
+    color: var(--pb-crimson) !important;
+}
+
+.pb-timeline {
+    list-style: none;
+    margin: 1.5em 0 2em;
+    padding: 0;
+    border-left: 3px solid var(--pb-teal);
+}
+
+.pb-timeline > li {
+    position: relative;
+    margin: 0 0 1.75em;
+    padding: 0 0 0 1.25em;
+}
+
+.pb-timeline > li::before {
+    content: "";
+    position: absolute;
+    left: -0.55em;
+    top: 0.35em;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    background: var(--pb-gold);
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px var(--pb-indigo);
+}
+
+.pb-timeline .pb-year {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--pb-indigo);
+    text-shadow: 1px 1px 0 var(--pb-pink);
+    margin-bottom: 0.25em;
+}
+
+.pb-timeline .pb-when {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--pb-muted);
+    margin-bottom: 0.5em;
+}
+
+.pb-page .extra-wrapper.footer {
+    background: linear-gradient(180deg, #302b47 0%, #1b1828 100%);
+}
+
+.pb-page .footer .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.pb-page .footer .three-in-row > div {
+    width: auto;
+    padding: 0 1.5em 0.5em;
+}
+
+.pb-page .footer a {
+    color: var(--pb-teal);
+}
+
+.pb-page .footer a:hover {
+    color: var(--pb-pink);
+}
+
+@media (max-width: 540px) {
+    .pb-page .head {
+        font-size: 1.15em;
+        min-height: 140px;
+    }
+
+    .pb-article h1.pb-title {
+        font-size: 1.55rem;
+    }
+}
