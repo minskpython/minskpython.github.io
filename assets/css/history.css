@@ -208,6 +208,11 @@ body.hist-page {
     margin-bottom: 0.4em;
 }
 
+.hist-people .hist-person-note {
+    color: var(--hist-muted);
+    font-size: 0.9rem;
+}
+
 .hist-people p {
     margin: 0;
 }
